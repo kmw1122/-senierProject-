@@ -5,7 +5,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
 import ReactHtmlParser from 'html-react-parser'
 import Axios from 'axios'
 
-function App() {
+function Community() {
   const [communityContent, setcommunityContent] = useState({
     title: '',
     content: '',
@@ -82,4 +82,4 @@ function App() {
   )
 }
 
-export default App
+export default Community
